@@ -1,0 +1,106 @@
+# Galaxy Profile README Configuration
+# Copy this file to config.yml and customize it to make it your own!
+#
+# Usage:
+#   cp config.example.yml config.yml
+#   # Edit config.yml with your details
+#   python -m generator.main
+#
+# Demo mode (no API calls, uses this file directly):
+#   python -m generator.main --demo
+
+# Your GitHub username (required)
+username: TRPRojects98
+
+# Profile information displayed in the galaxy header
+profile:
+  name: "Tiago Reis"
+  tagline: "Full Stack Developer"
+  company: "CAMPUS Lab"
+  location: "Espinho, Portugal"
+  bio: |
+    I fell in love with Web Development, more specifically Front-End Development.
+    I am very intressted in this area and I always seek more knowledge.
+  philosophy: '"Trying to make the world a better place through code.."'
+
+# Social links displayed at the bottom of the profile
+social:
+  email: "reistiago64@gmail.com"
+  linkedin: "nyxorion"
+  website: "https://web-portfolio-4e250.web.app/"
+
+# Galaxy arms represent your core focus areas
+# Each arm spirals out from the center with its own color and tech items
+# Available colors: "synapse_cyan", "dendrite_violet", "axon_amber"
+galaxy_arms:
+  - name: "Frontend"
+    color: "dendrite_violet"
+    items:
+      - "TypeScript"
+      - "React"
+      - "React Native"
+      - "Vue.js"
+      - "CSS"
+      - "Tailwind"
+  - name: "Backend"
+    color: "synapse_cyan"
+    items:
+      - "Python"
+      - "Node.js"
+      - "PostgreSQL"
+      - "PHP"
+      - "REST APIs"
+      - "GraphQL"
+  - name: "DevOps"
+    color: "axon_amber"
+    items:
+      - "Docker"
+      - "GitHub Actions"
+      - "AWS"
+
+# Featured projects shown as constellation stars
+# Each project needs:
+#   repo: "owner/repo-name"   — GitHub repository path
+#   arm: 0-2                  — Which galaxy arm to associate with (index)
+#   description: "..."        — Short description shown on the card
+projects:
+  - repo: "TRProjects98/Jojo-Mini-Project"
+    arm: 0
+    description: "This webiste was made to show my love for Jojo Bizarre Adventure, and showcase my pipeline and testing skills."
+  - repo: "TRProjects98/SN-Project"
+    arm: 0
+    description: "The StickyNote Project is a web application that allows users to add sticky note with tasks to a virtual board. In this app, I implemented three different state management approaches: Callback Functions, useEffect, and Redux, each with unique features. Additionally, all sticky note data is saved in local storage. Available only on Desktop."
+  - repo: "TRProjects98/FoodRescue"
+    arm: 1
+    description: "FoodRescue is an application that focuses on a concerning issue of food waste. With the aim of helping people facing difficulties, this application connects food suppliers with excess inventory to volunteer distributors who deliver to families in need."
+
+# Theme color overrides (optional — defaults to deep space palette)
+# All values must be valid hex color codes (#RRGGBB)
+theme:
+  void: "#080c14" # Darkest background
+  nebula: "#0f1623" # Card backgrounds
+  star_dust: "#1a2332" # Borders, dividers
+  synapse_cyan: "#00d4ff" # Primary accent (arm color 1)
+  dendrite_violet: "#a78bfa" # Secondary accent (arm color 2)
+  axon_amber: "#ffb020" # Tertiary accent (arm color 3)
+  text_bright: "#f1f5f9" # Primary text
+  text_dim: "#94a3b8" # Secondary text
+  text_faint: "#64748b" # Muted text, labels
+
+# Stats configuration — which metrics to show on the telemetry card
+stats:
+  metrics:
+    - "commits"
+    - "stars"
+    - "prs"
+    - "issues"
+    - "repos"
+
+# Language display settings
+languages:
+  exclude: # Languages to hide from the telemetry chart
+    - "HTML"
+    - "CSS"
+    - "Shell"
+    - "Makefile"
+  max_display: 8 # Maximum number of languages to show
