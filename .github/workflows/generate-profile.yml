@@ -51,11 +51,12 @@ jobs:
 
           mkdir -p profile-repo/assets/generated/
           cp -r assets/generated/. profile-repo/assets/generated/
+          cp README.md profile-repo/README.md        # <-- adiciona esta linha
 
           cd profile-repo
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/generated/
+          git add assets/generated/ README.md        # <-- adiciona README.md aqui também
           if ! git diff --staged --quiet; then
             git commit -m "chore: sync profile SVGs [skip ci]"
             git push
