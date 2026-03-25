@@ -49,6 +49,7 @@ jobs:
         run: |
           git clone https://x-access-token:${PROFILE_REPO_TOKEN}@github.com/TRProjects98/TRProjects98.git profile-repo
 
+          mkdir -p profile-repo/assets/generated/
           cp -r assets/generated/. profile-repo/assets/generated/
 
           cd profile-repo
