@@ -42,7 +42,7 @@ jobs:
             git push
           fi
 
-      - name: Push assets to profile repo (cron only)
+      - name: Push assets to profile repo
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         env:
           PROFILE_REPO_TOKEN: ${{ secrets.PROFILE_REPO_TOKEN }}
