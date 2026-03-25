@@ -33,10 +33,11 @@
 
 <br/>
 
-Building tools that make developers' lives easier.
-Passionate about distributed systems, developer experience, and the open-source ecosystem.
+I fell in love with Web Development, more specifically Front-End Development.
+I am very intressted in this area and I always seek more knowledge.
 
-**Currently at** Stellar Labs — San Francisco, CA
+**Currently at** CAMPUS Lab — Aveiro, Portugal
+
 </details>
 
 <br/>
