@@ -46,7 +46,7 @@ I am very intressted in this area and I always seek more knowledge.
   <a href="mailto:reistiago64@gmail.com">
     <img src="https://img.shields.io/badge/-Email-080c14?style=for-the-badge&logo=gmail&logoColor=00d4ff" alt="Email"/>
   </a>
-  <a href="www.linkedin.com/in/tiago-reis-profile">
+  <a href="https://www.linkedin.com/in/tiago-reis-profile/">
     <img src="https://img.shields.io/badge/-LinkedIn-080c14?style=for-the-badge&logo=linkedin&logoColor=a78bfa" alt="LinkedIn"/>
   </a>
 </div>
